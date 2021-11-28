@@ -1,0 +1,19 @@
+Troposphere: https://github.com/cloudtools/troposphere
+
+#Create virtual environment
+python -m venv environment
+
+#Activating virtual environment
+cd env/Scripts
+actiivate
+
+#Downloading requirements
+pip install -r requirements.txt
+
+
+##To run the code 
+Setp1: pip install -r requirements.txt
+Setp2: Create a .taskcat.yml file
+Step3: Create a CloudFormation Template (sqs.yml)
+
+
