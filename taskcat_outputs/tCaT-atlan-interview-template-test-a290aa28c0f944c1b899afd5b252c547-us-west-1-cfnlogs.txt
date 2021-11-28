@@ -1,0 +1,21 @@
+-----------------------------------------------------------------------------
+Region: us-west-1
+StackName: tCaT-atlan-interview-template-test-a290aa28c0f944c1b899afd5b252c547
+*****************************************************************************
+ResourceStatusReason:  
+Stack launch was successful
+*****************************************************************************
+*****************************************************************************
+Events:  
+TimeStamp                         ResourceStatus      ResourceType                LogicalResourceId                                                    ResourceStatusReason
+--------------------------------  ------------------  --------------------------  -------------------------------------------------------------------  ---------------------------
+2021-11-28 09:34:09.610000+00:00  CREATE_COMPLETE     AWS::CloudFormation::Stack  tCaT-atlan-interview-template-test-a290aa28c0f944c1b899afd5b252c547
+2021-11-28 09:34:07.990000+00:00  CREATE_COMPLETE     AWS::SQS::Queue             MyQueue
+2021-11-28 09:34:06.612000+00:00  CREATE_IN_PROGRESS  AWS::SQS::Queue             MyQueue                                                              Resource creation Initiated
+2021-11-28 09:34:05.892000+00:00  CREATE_IN_PROGRESS  AWS::SQS::Queue             MyQueue
+2021-11-28 09:34:02.429000+00:00  CREATE_IN_PROGRESS  AWS::CloudFormation::Stack  tCaT-atlan-interview-template-test-a290aa28c0f944c1b899afd5b252c547  User Initiated
+*****************************************************************************
+-----------------------------------------------------------------------------
+Tested on: Sunday, 28. November 2021 09:35AM
+-----------------------------------------------------------------------------
+
