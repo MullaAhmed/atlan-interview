@@ -516,7 +516,7 @@ class RatingResponse(Resource):
             "questionAlias": "signature"
           },
           {
-            "text": "test\n",
+            "text": "test",
             "questionId": "dyhi1I24WD",
             "responseId": "e3028368-ba05-42f1-814e-fca77976f3db",
             "questionTypeCode": "not",
