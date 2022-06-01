@@ -10,16 +10,30 @@ class RatingResponse(Resource):
 
     def get(self):
         message = {
-        "Team":[ 
-            {  
-                "Name":"Minerva",
-                "Member":"Ahmed",
-                "Member":"Anmol",
-                "Member":"Jay",
-                "Member":"Anish:
-            }
-               ]
-        }
+    "Teams": [
+      {
+        "Minerva": 
+        [
+          {
+            "Member 1": "Ahmed",
+            "Member 2": "Anmol",
+            "Member 3": "Jay",
+            "Member 4": "Anish",
+          }
+        ],
+        
+        "Manentia":
+        [ 
+          {
+            "Member 1": "Anuj",
+            "Member 2": "Hitesh",
+            "Member 3": "Jitender",
+            "Member 4": "Chand",
+          }
+         ] ,
+          
+      }
+      ]}
         
         return jsonify(message)
 
@@ -29,5 +43,4 @@ api.add_resource(RatingResponse, '/')
 
 # driver function
 if __name__ == '__main__':
-
-    app.run(debug=True)
+  app.run(debug=True)
